@@ -1,0 +1,49 @@
+.idea/
+.idea/*
+
+# Rider یا IntelliJ IDEA تنظیمات
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core پوشه‌های باینری و فایل‌های مربوط به
+bin/
+obj/
+out/
+
+# پروژه‌های ASP.NET Core پوشه‌های انتشار و لاگ‌ها
+publish/
+wwwroot/
+logs/
+*.log
+
+# فایل‌های لاگ و موقت مربوط به سیستم
+.vscode/
+.env
+.env.local
+.tmp
+temp/
+tmp/
+
+# فایل‌های مربوط به کانتینر Docker
+**/Dockerfile
+**/docker-compose*
+
+# فایل‌های قفل و پکیج منیجر
+*.lock.json
+project.lock.json
+project.fragment.lock.json
+
+# NPM پوشه‌های وابستگی و فایل‌های لاگ‌های
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# فایل‌های موقت و کش مربوط به سی‌شارپ
+*.csproj.user
+*.csproj.DotSettings
+*.pidb
+*.sln.DotSettings
+.vscode/

@@ -1,0 +1,6 @@
+@PSL.Api_HostAddress = http://localhost:5069
+
+GET {{PSL.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
